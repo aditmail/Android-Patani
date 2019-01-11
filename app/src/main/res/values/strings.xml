@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Patani</string>
+
+    <string name="provinsi_pilih">Pilih Provinsi:</string>
+    <string-array name="Provinsi">
+        <item>DKI Jakarta</item>
+        <item>Jawa Barat</item>
+    </string-array>
+
+    <string name="kabupatenDKI_pilih">Pilih Kabupaten/Kota:</string>
+    <string-array name="KabupatenDKI">
+        <item>Jakarta Timur</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Selatan</item>
+        <item>Jakarta Pusat</item>
+        <item>Kepulauan Seribu</item>
+    </string-array>
+
+    <string name="kabupatenJawaBarat_pilih">Pilih Kabupaten/Kota:</string>
+    <string-array name="KabupatenJawaBarat">
+        <item>Kota Bandung</item>
+        <item>Kabupaten Bandung</item>
+        <item>Kota Bekasi</item>
+        <item>Kabupaten Bekasi</item>
+    </string-array>
+
+    <string name="jenisDataran_pilih">Pilih:</string>
+    <string-array name="DataranLahan">
+        <item>Dataran Tinggi</item>
+        <item>Dataran Rendah</item>
+        <item>Dataran Pantai</item>
+    </string-array>
+
+    <string name="jenisIklim_pilih">Pilih:</string>
+    <string-array name="Iklim">
+        <item>Tropis</item>
+        <item>Subtropis</item>
+        <item>Sedang</item>
+        <item>Dingin</item>
+    </string-array>
+
+    <string name="jenisIrigasi_pilih">Pilih:</string>
+    <string-array name="Irigasi">
+        <item>Permukaan</item>
+        <item>Curah</item>
+        <item>Mikro/Tetes</item>
+        <item>Bawah Permukaan</item>
+    </string-array>
+
+    <string name="jenisTanah_pilih">Pilih:</string>
+    <string-array name="Tanah">
+        <item>Aluvial</item>
+        <item>Vulkanis</item>
+        <item>Humus</item>
+        <item>Kapur</item>
+        <item>Pasir</item>
+        <item>Podzolik</item>
+        <item>Laterit</item>
+        <item>Litosol</item>
+    </string-array>
+
+    <string name="statusLahan_pilih">Pilih:</string>
+    <string-array name="statusLahan">
+        <item>Pribadi</item>
+        <item>Bersama</item>
+    </string-array>
+
+    <string name="pupuk_pilih">Pilih:</string>
+    <string-array name="pupuk">
+        <item>Pupuk Kandang</item>
+        <item>Pupuk Organik</item>
+        <item>Pupuk Kompos</item>
+        <item>Pupuk Urea</item>
+    </string-array>
+
+    <string name="cari_pupuk_pilih">Pilih:</string>
+    <string-array name="cari_pupuk">
+        <item>Periode</item>
+        <item>Tanggal Input Data</item>
+        <item>Nama Benih</item>
+    </string-array>
+
+    <string name="cari_panen_pilih">Pilih:</string>
+    <string-array name="cari_panen">
+        <item>Periode</item>
+        <item>Tanggal Input Data</item>
+        <item>Hasil Benih</item>
+    </string-array>
+
+    <string name="cari_pilih">Pilih:</string>
+    <string-array name="cari">
+        <item>ID</item>
+        <item>Tanggal Input Data</item>
+    </string-array>
+
+    <string-array name="hasil_panen">
+        <item>
+            \tPeriode\t\t\t\t\t\t\t\t\t\t : 1\n
+            \tTanggal Input Data\t\t : 10-10-2018\n
+            \tHasil Benih\t\t\t\t\t\t\t : Benih Unggulan\n
+            \tTotal Hasil Panen\t\t\t : Rp.600.000\n
+        </item>
+        <item>
+            \tPeriode\t\t\t\t\t\t\t\t\t\t             : 1\n
+            \tTanggal Input Data\t\t  : 12-10-2018\n
+            \tHasil Benih\t\t\t\t\t\t\t         : Benih Tongbes\n
+            \tTotal Hasil Panen\t\t\t   : Rp.600.000\n
+        </item>
+        <item>
+            \tPeriode\t\t\t\t\t\t\t\t\t\t            : 1\n
+            \tTanggal Input Data\t\t  : 14-10-2018\n
+            \tHasil Benih\t\t\t\t\t\t\t         : Benih Tongbes\n
+            \tTotal Hasil Panen\t\t\t   : Rp.1.000.000\n
+        </item>
+    </string-array>
+
+    <string-array name="hasil_pupuk">
+        <item>
+            \tPeriode\t\t\t\t\t\t\t\t\t             : 1\n
+            \tTanggal Input Data\t  : 10-08-2018\n
+            \tNama Benih\t\t\t\t\t\t         : Benih Unggulan\n
+            \tJenis Pupuk\t\t\t\t\t\t         : Pupuk Kandang\n
+            \tNama Pestisida\t\t\t      : Pupuk Kandang\n
+            \tTotal Hasil Panen\t\t   : Rp.300.000\n
+        </item>
+        <item>
+            \tPeriode\t\t\t\t\t\t\t\t\t             : 1\n
+            \tTanggal Input Data\t  : 12-08-2018\n
+            \tNama Benih\t\t\t\t\t\t          : Benih Unggulan\n
+            \tJenis Pupuk\t\t\t\t\t\t         : Pupuk Kandang\n
+            \tNama Pestisida\t\t\t      : Pupuk Kandang\n
+            \tTotal Hasil Panen\t\t   : Rp.200.000\n
+        </item>
+    </string-array>
+
+    <string-array name="tanam_apa">
+        <item>
+            \tTanam\t\t\t\t\t\t\t\t\t\t\t: Tanaman Pala\n
+            \tDurasi Tanam\t\t\t\t\t\t: 30 Hari\n
+            \tTingkat Kerumitan\t\t: Mudah\n
+        </item>
+        <item>
+            \tTanam\t\t\t\t\t\t\t\t\t\t\t: Jagung\n
+            \tDurasi Tanam\t\t\t\t\t\t: 30-60 Hari\n
+            \tTingkat Kerumitan\t\t: Sedang\n
+        </item>
+        <item>
+            \tTanam\t\t\t\t\t\t\t\t\t\t\t: Sagu\n
+            \tDurasi Tanam\t\t\t\t\t\t: 120-150 Hari\n
+            \tTingkat Kerumitan\t\t: Rumit\n
+        </item>
+        <item>
+            \tTanam\t\t\t\t\t\t\t\t\t\t\t: Cabai\n
+            \tDurasi Tanam\t\t\t\t\t\t: 90 Hari\n
+            \tTingkat Kerumitan\t\t: Sedang\n
+        </item>
+    </string-array>
+
+    <string-array name="catetan_array">
+        <item>
+            \tID\t\t\t\t             : 1\n
+            \tTanggal Input Data\t  : 10-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 2\n
+            \tTanggal Input Data\t  : 12-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 3\n
+            \tTanggal Input Data\t  : 13-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 4\n
+            \tTanggal Input Data\t  : 15-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 5\n
+            \tTanggal Input Data\t  : 19-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 6\n
+            \tTanggal Input Data\t  : 20-08-2018\n
+        </item>
+        <item>
+            \tID\t\t\t\t             : 7\n
+            \tTanggal Input Data\t  : 21-08-2018\n
+        </item>
+    </string-array>
+
+    <string name="title_activity_tampilan_menu_utama">TampilanMenuUtama</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

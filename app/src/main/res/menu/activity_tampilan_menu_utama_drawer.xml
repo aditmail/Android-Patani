@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_profil"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_catatan"
+            android:icon="@drawable/ic_note"
+            android:title="Catatan/Jurnal" />
+
+        <item
+            android:id="@+id/nav_tanam_apa"
+            android:icon="@drawable/ic_tanam_apa"
+            android:title="Tanam Apa Hari ini?" />
+
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_tutorial"
+            android:title="Tutorial Bercocok Tanam" />
+
+    </group>
+
+    <item android:title="Keluar">
+        <menu>
+            <item
+                android:id="@+id/nav_kritik_saran"
+                android:icon="@drawable/ic_kritik_saran"
+                android:title="Kritik dan Saran" />
+
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_keluar"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>

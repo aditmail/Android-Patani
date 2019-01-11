@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".TampilanDataPupuk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_input"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            app:srcCompat="@drawable/masukkan_data_white" />
+
+        <ImageView
+            android:id="@+id/imageView_lihat"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/txt_data_pupuk" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp">
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/roboto_light"
+                android:hint="(Pencarian)"
+                android:inputType="number"
+                android:textAlignment="textStart"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/cari_pupuk"
+                android:prompt="@string/cari_pupuk_pilih"
+                android:spinnerMode="dialog" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Cari"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <ImageView
+            android:id="@+id/imageView_pupuk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="125dp"
+            android:src="@drawable/data_hasil_benih" />
+
+        <ListView
+            android:id="@+id/pupuk_dynamic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/hasil_pupuk"
+            android:scrollbars="vertical"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

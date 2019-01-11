@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aditmail.patani">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_kecil"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_kecil"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TampilanLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".TampilanRegistrasi"
+            android:label="Registrasi Akun Patani"
+            android:parentActivityName=".TampilanLogin" />
+        <activity
+            android:name=".TampilanMenuUtama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TampilanDataLahan"
+            android:label="Data Lahan"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanInputDataPupuk"
+            android:label="Data Pupuk, Benih dan Pestisida"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanInputDataPanen"
+            android:label="Data Hasil Panen"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanKalkulasiPanen"
+            android:label="Kalkulasi Hasil Panen"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanHasilKalkulasi"
+            android:label="Kalkulasi Hasil Panen"
+            android:parentActivityName=".TampilanKalkulasiPanen" />
+        <activity
+            android:name=".TampilanKritikSaran"
+            android:label="Kritik dan Saran"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanBantuan"
+            android:label="Bantuan"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanProfil"
+            android:label="Data Identitas Diri"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanDataPupuk"
+            android:label="Data Pupuk, Benih dan Pestisida"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanDataPanen"
+            android:label="Data Hasil Panen"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".CatatanJurnal"
+            android:label="Data Catatan/Jurnal Tani"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanDataCatatan"
+            android:label="Data Catatan/Jurnal Tani"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity
+            android:name=".TampilanTutorial"
+            android:label="Tutorial Tanam"
+            android:parentActivityName=".TampilanMenuUtama" />
+        <activity android:name=".TampilanTanamApa"
+            android:label="Tanam Apa Hari Ini?"
+            android:parentActivityName=".TampilanMenuUtama"/>
+    </application>
+
+</manifest>

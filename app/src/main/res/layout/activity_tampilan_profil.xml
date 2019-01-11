@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilanProfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="30dp"
+            app:srcCompat="@drawable/profil_edit" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Nama Pengguna"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto_light"
+            android:hint="(Masukkan Nama Pengguna)"
+            android:inputType="textPersonName"
+            android:text="Farhan Geriansyah"
+            android:textAlignment="textStart"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="No. HP"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto_light"
+            android:hint="(Masukkan No HP)"
+            android:inputType="phone"
+            android:text="08123456789"
+            android:textAlignment="textStart"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Email"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto_light"
+            android:hint="(Masukkan Alamat Email Anda)"
+            android:inputType="textEmailAddress"
+            android:text="geriansyah@gmail.com"
+            android:textAlignment="textStart"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Jenis Kelamin"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Perempuan" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Alamat"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto_light"
+            android:hint="(Masukkan Alamat Anda)"
+            android:inputType="textMultiLine"
+            android:text="Jl. Sana Sini No.11 Vila L1"
+            android:textAlignment="textStart"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Provinsi"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_Provinsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:entries="@array/Provinsi"
+            android:prompt="@string/provinsi_pilih"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="Kabupaten/Kota"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_DKI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:entries="@array/KabupatenDKI"
+            android:prompt="@string/kabupatenDKI_pilih"
+            android:spinnerMode="dialog"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinner_JABAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:entries="@array/KabupatenJawaBarat"
+            android:prompt="@string/kabupatenDKI_pilih"
+            android:spinnerMode="dialog"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_Update"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif"
+            android:text="Perbarui Data Profil"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
